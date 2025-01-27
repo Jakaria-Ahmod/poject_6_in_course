@@ -1,0 +1,701 @@
+/* =========================================comon css start ========================================================= */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+/* =========================================comon css end ========================================================= */
+
+/* =========================================nav bar start ========================================================= */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: black; */
+  z-index: 999;
+  background-color: white;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  column-gap: 46px;
+}
+
+.nav-item .nav-link {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+.nav-item .nav-link:hover {
+  color: #5e3bee;
+}
+
+.nav_button button {
+  flex-shrink: 0;
+  column-gap: 7px;
+  border-radius: 50px;
+  background: #5e3bee;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  padding: 8px 22px 11px 22px;
+  border: none;
+  transition: all linear 0.3s;
+  margin-top: 24px;
+  margin-bottom: 31px;
+}
+
+.nav_button button:hover {
+  background-color: #3416ac;
+}
+/* =========================================nav bar end ========================================================= */
+
+/* =========================================banner start========================================================= */
+#banner {
+  margin-top: 100px;
+}
+
+.banner_left_contant h3 {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.5px;
+}
+.banner_left_contant h1 {
+  color: #333;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 130% */
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.banner_button button {
+  border-radius: 50px;
+  background: #5e3bee;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+  padding: 23px 38px 23px 41px;
+  border: none;
+  outline: none;
+  transition: all linear 0.3s;
+}
+.banner_button button img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.banner_button button:hover {
+  background-color: #3416ac;
+}
+.banner_button {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+.main_banner_item {
+  margin-bottom: 119px;
+}
+.banner_button a {
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.banner_left_contant {
+  margin-top: 156px;
+}
+.banner_left_contant {
+  margin-top: 91px;
+}
+
+.banner_right img {
+  width: 100%;
+  /* height: 583px; */
+  object-fit: cover;
+  margin-top: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* banner end */
+
+/* =========================================count start ========================================================= */
+#count {
+  padding-top: 93px;
+  margin-bottom: 133px;
+}
+
+.count_contain h3 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: 0.5px;
+}
+.count_contain p {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  opacity: #121212b2 0.7;
+}
+
+/* =========================================count end ========================================================= */
+
+/* =========================================service section start ========================================================= */
+#service {
+  margin-bottom: 140px;
+}
+.service_heading h3 {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.service_heading h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: 0.22px;
+}
+.service_heading P {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+}
+.seciton_card {
+  margin-top: 64px;
+  text-align: center;
+  border-radius: 24px;
+  background: #f9f9fc;
+  filter: drop-shadow(37px 37px 80px 0px rgba(0, 0, 0, 0.1));
+  padding-top: 51px;
+  padding-bottom: 52px;
+  padding-right: 34px;
+  padding-left: 34px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.seciton_card:hover {
+  background-color: #f9f9fc;
+}
+.seciton_card img {
+  padding-top: 51px;
+}
+.seciton_card h3 {
+  margin-top: 43px;
+  margin-bottom: 9px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.5px;
+}
+.seciton_card p {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+  padding: 0 50px;
+}
+/* =========================================service section end ========================================================= */
+
+/* =========================================about section start ========================================================= */
+#about {
+  padding-top: 109px;
+  padding-bottom: 113px;
+  background: url('../img/about.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aobut_contant span {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.5px;
+}
+.aobut_contant h3 {
+  color: #333;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 130% */
+  padding-right: 200px;
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+.aobut_contant p {
+  color: #333;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+  padding-right: 50px;
+}
+.aobut_img_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about_button button {
+  border-radius: 50px;
+  background: #5e3bee;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+  padding: 23px 38px 23px 41px;
+  border: none;
+  outline: none;
+  transition: all linear 0.3s;
+  margin-top: 30px;
+}
+.about_button button:hover {
+  background-color: #3c19c8;
+}
+.about_button h6 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.aobut_img_right img {
+  border-radius: 7px;
+  cursor: pointer;
+}
+/* =========================================about section end ========================================================= */
+
+/* ========================================= company start ========================================================= */
+
+#company {
+  padding-top: 127px;
+  padding-bottom: 119px;
+}
+
+/* ========================================= company end ========================================================= */
+
+/* ========================================= work section start ========================================================= */
+
+#my_work {
+  padding-top: 50px;
+  padding-bottom: 132px;
+}
+.work_heading h5 {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.5px;
+}
+.work_heading h6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: 0.22px;
+}
+.my_work_right p {
+  color: rgba(18, 18, 18, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+}
+.work_card {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: 51px;
+  cursor: pointer;
+  width: 583px;
+  height: 532px;
+  flex-shrink: 0;
+}
+.word_card_img img {
+  width: 100%;
+}
+.work_card_text {
+  padding-top: 46px;
+  padding-bottom: 33px;
+  padding-left: 47px;
+}
+.work_card_text h5 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.5px;
+}
+.work_card_text h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+}
+
+/* ========================================= work section end ========================================================= */
+
+/* ========================================= Testimunial start ========================================================= */
+
+.main_Testi {
+  background-image: url('../img/reviw-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 185px;
+  padding-bottom: 200px;
+}
+.Testimunial_heading span {
+  color: #5e3bee;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.5px;
+}
+.Testimunial_heading h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 127.273% */
+  letter-spacing: 0.22px;
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+.Testimunial_heading p {
+  color: rgba(18, 18, 18, 0.7);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+}
+.Rivew_card {
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 27px 37px 80px 0px rgba(0, 0, 0, 0.1);
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 42px;
+  margin-top: 57px;
+  padding-right: 58px;
+}
+.Rivew_star i {
+  color: #eec01c;
+  cursor: pointer;
+}
+.Rivew_dis p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 1.5px;
+  margin-top: 32px;
+}
+.Rivew_inner {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Rivew_inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.Rivew_name_ad h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.5px;
+}
+.Rivew_name_ad h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+.Rivew_info {
+  margin-top: 27px;
+}
+.Rivew_comment img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.main_testi_card {
+  margin-top: -155px;
+  margin-bottom: 136px;
+}
+/* ========================================= Testimunial end ========================================================= */
+
+/* ========================================= cta stction start ========================================================= */
+
+.main_cta {
+  background-image: url('../img/cta_bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cta_text h3 {
+  color: #333;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 144% */
+  letter-spacing: 0.25px;
+  padding-top: 112px;
+  padding-right: 16px;
+}
+.cta_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+}
+.cta_button button {
+  border-radius: 50px;
+  background: #5e3bee;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+  padding: 23px 38px 23px 41px;
+  border: none;
+  outline: none;
+  transition: all linear 0.3s;
+  margin-top: 30px;
+  margin-bottom: 137px;
+}
+.cta_button button:hover {
+  background-color: #3c19c8;
+}
+/* ========================================= cta stction end ========================================================= */
+
+/* ========================================= Footer start ========================================================= */
+.footer_bg {
+  width: 1335px;
+  flex-shrink: 0;
+  border-radius: 24px 24px 0px 0px;
+  background: #333;
+  margin: 0 auto;
+  margin-top: 132px;
+  /* min-height: 500px; */
+  /* padding-bottom: 66px; */
+}
+.main_footer {
+  padding-top: 112px;
+}
+.footer_logo img {
+  width: 252px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.footer_logo p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+}
+.footer_contact {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 23px;
+}
+.footer_contact a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.sucal_icon_parent {
+  column-gap: 24px;
+}
+.sucal_icon_parent i {
+  font-size: 22px;
+  color: white;
+}
+.Reka_in_footer {
+  width: 1000px;
+  height: 1px;
+  background: #404040;
+  margin-top: 75px;
+}
+.footer_main_menu ul {
+  column-gap: 46px;
+}
+.footer_main_menu ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 1.5px;
+}
+
+.obodro {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  /* letter-spacing: 1.5px; */
+  cursor: pointer;
+}
+.footer_main_menu {
+  padding-top: 52px;
+  margin-bottom: 38px !important;
+}
+.copy_right p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  padding-top: 52px;
+}
+/* ========================================= Footer end ========================================================= */
+
+/* =========================================nav bar start ========================================================= */
+/* =========================================nav bar end ========================================================= */
