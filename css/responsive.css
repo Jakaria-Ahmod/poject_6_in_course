@@ -859,6 +859,11 @@
     width: 100%;
     min-height: 612px;
   }
+
+  .footer_mt {
+    margin-top: 36px;
+    padding: 0px 0px;
+  }
 }
 /* sm start  */
 @media (min-width: 576.99px) and (max-width: 767px) {
@@ -1117,6 +1122,21 @@
     display: flex;
     justify-content: center;
     align-content: center;
+  }
+  .footer_contact {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 23px;
+    padding-left: 0;
+  }
+  .sucal_icon_parent {
+    column-gap: 24px;
+    padding-left: 0px;
+  }
+  .footer_mt {
+    margin-top: 36px;
+    padding: 0;
   }
 }
 /* sx start */
@@ -1460,5 +1480,19 @@
     background-position: center;
     background-size: 100%;
     margin-right: 25px;
+  }
+  .footer_contact {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 23px;
+    padding-left: 120px;
+  }
+  .sucal_icon_parent {
+    column-gap: 24px;
+    padding-left: 120px;
+  }
+  .Reka_in_footer {
+    width: 100%;
   }
 }
