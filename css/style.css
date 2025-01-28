@@ -695,6 +695,17 @@ p {
   letter-spacing: 0.5px;
   padding-top: 52px;
 }
+.footer_contact {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 23px;
+  padding-left: 102px;
+}
+.sucal_icon_parent {
+  column-gap: 24px;
+  padding-left: 103px;
+}
 /* ========================================= Footer end ========================================================= */
 
 /* =========================================nav bar start ========================================================= */
